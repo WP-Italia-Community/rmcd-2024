@@ -16,6 +16,11 @@ h1 {
 	color: #01A4DC;
 }
 
+.entry-header h1 {
+	font-weight: 700 !important;
+	font-style: normal;
+}
+
 p, ul, ol, table, form, tr, th, td, .wp-block-search__label {
 	font-family: "Lato", sans-serif;
 	font-weight: 400;
@@ -94,7 +99,7 @@ div.search-toggle-wrapper {
 	display: none;
 }
 
-/* Higglight tickets menu item */
+/* Highlight tickets menu item */
 .header-navigation-wrapper .primary-menu > li > a {
 	padding-bottom: 8px;
 	padding-top: 8px;
@@ -160,4 +165,27 @@ body.wcb_speaker-template-default h1.entry-title:after {
 	display: block;
 	text-transform: uppercase;
 	font-size: 4rem;
+}
+
+body.page-id-8 .wp-block-read-more {
+	display: none;
+}
+
+/* Menu */
+
+/* Change submenu background */
+body:not(.overlay-header) .primary-menu ul {
+	background-color: #006db5;
+}
+
+body:not(.overlay-header) .primary-menu > li > ul:after {
+	border-bottom-color: #006db5;
+}
+
+.primary-menu li a {
+	color: #fefefe;
+}
+
+.primary-menu ul {
+	border: 1px solid #fff;
 }
