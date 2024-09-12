@@ -110,14 +110,18 @@ td.tix-right input[type="text"], input[type="email"], input[type="url"] {
 }
 
 /* ATTENDEES */
+#tix-attendees {
+	max-width: 100rem !important;
+}
+
 #tix-attendees .tix-columns-3 li {
 	width: 30% !important;
 }
 
 #tix-attendees .avatar {
 	float: left;
-	width: 60px !important;
-	height: 60px !important;
+	width: 80px !important;
+	height: 80px !important;
 	border-radius: 15px;
 	margin-right: 10px !important;
 }
@@ -136,7 +140,14 @@ td.tix-right input[type="text"], input[type="email"], input[type="url"] {
 	font-size: 14px !important;
 }
 
+@media screen and (max-width: 600px) {
+	#tix-attendees .tix-columns-3 li {
+		width: 100% !important;
+	}
+}
+
 /*FINE ATTENDEES */
+
 /* Speakers */
 /* Hide author meta and bio */
 body.wcb_speaker-template-default .author-bio,
