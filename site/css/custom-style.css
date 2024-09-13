@@ -164,7 +164,19 @@ body.wcb_speaker-template-default h1.entry-title:after {
 	content: "speaker";
 	display: block;
 	text-transform: uppercase;
-	font-size: 4rem;
+	font-size: 2rem;
+}
+
+@media (min-width: 700px) {
+	body.wcb_speaker-template-default h1.entry-title:after {
+		font-size: 3rem;
+	}
+}
+
+@media (min-width: 1220px) {
+	body.wcb_speaker-template-default h1.entry-title:after {
+		font-size: 3.5rem;
+	}
 }
 
 body.page-id-8 .wp-block-read-more {
@@ -188,4 +200,29 @@ body:not(.overlay-header) .primary-menu > li > ul:after {
 
 .primary-menu ul {
 	border: 1px solid #fff;
+}
+
+/* Sponsors */
+
+body.wcb_sponsor-template-default .entry-header .post-meta-wrapper {
+	display: none;
+}
+
+body.wcb_sponsor-template-default h1.entry-title:after {
+	content: "sponsor";
+	display: block;
+	text-transform: uppercase;
+	font-size: 2rem;
+}
+
+@media (min-width: 700px) {
+	body.wcb_sponsor-template-default h1.entry-title:after {
+		font-size: 3rem;
+	}
+}
+
+@media (min-width: 1220px) {
+	body.wcb_sponsor-template-default h1.entry-title:after {
+		font-size: 3.5rem;
+	}
 }
