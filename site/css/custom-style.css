@@ -365,7 +365,3 @@ body.wcb_session-template-default h1.entry-title:after {
 .wp-block-wordcamp-schedule .is-spanning-all-tracks .wordcamp-schedule__session-title {
 	justify-content: center;
 }
-
-#wordcamp-schedule__day-2022-11-11-tracks-all .wordcamp-schedule__session-title + p {
-	text-align: center;
-}
