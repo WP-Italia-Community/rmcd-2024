@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.0.4] - 2024-09-15
+### Added
+ - Schedules classes.
+ - Vertical align sponsors logo.
+ - Session label after title.
+ - Hidden post meta info and author bio on session pages. 
+
 ## [1.0.3] - 2024-09-13
 ### Added
  - Sponsor label after title.
